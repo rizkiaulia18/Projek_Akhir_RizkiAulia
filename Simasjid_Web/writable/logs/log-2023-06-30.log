@@ -1,0 +1,936 @@
+INFO - 2023-06-30 07:10:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:10:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:10:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:11:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:12:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 07:21:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:01:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:31 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 114.
+ 1 APPPATH\Views\v_template_admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:32 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 114.
+ 1 APPPATH\Views\v_template_admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:32 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 114.
+ 1 APPPATH\Views\v_template_admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:33 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 114.
+ 1 APPPATH\Views\v_template_admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:01:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:33 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 114.
+ 1 APPPATH\Views\v_template_admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:35 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 114.
+ 1 APPPATH\Views\v_template_admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:36 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 114.
+ 1 APPPATH\Views\v_template_admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:36 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 114.
+ 1 APPPATH\Views\v_template_admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:01:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:36 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 114.
+ 1 APPPATH\Views\v_template_admin.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 114)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:01:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:01:58 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 126.
+ 1 APPPATH\Views\v_template_admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 126)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:04:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:04:12 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 126.
+ 1 APPPATH\Views\v_template_admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 126)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:04:13 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 126.
+ 1 APPPATH\Views\v_template_admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 126)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:04:13 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 126.
+ 1 APPPATH\Views\v_template_admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 126)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:04:13 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 126.
+ 1 APPPATH\Views\v_template_admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 126)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:04:13 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 126.
+ 1 APPPATH\Views\v_template_admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 126)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:04:13 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 126.
+ 1 APPPATH\Views\v_template_admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 126)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:04:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:04:14 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 126.
+ 1 APPPATH\Views\v_template_admin.php(126): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 126)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Nikah.php(26): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Nikah->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Nikah))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:06:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:06:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:06:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:07:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:07:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:08:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:38:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:38:18 --> Undefined array key "Keterangan"
+in APPPATH\Views\v_rekap_kas.php on line 30.
+ 1 APPPATH\Views\v_rekap_kas.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Keterangan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(185): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:38:30 --> Undefined array key "Keterangan"
+in APPPATH\Views\v_rekap_kas.php on line 30.
+ 1 APPPATH\Views\v_rekap_kas.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Keterangan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(185): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:39:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:39:19 --> Undefined array key "Keterangan"
+in APPPATH\Views\v_rekap_kas.php on line 30.
+ 1 APPPATH\Views\v_rekap_kas.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Keterangan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 30)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(185): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:39:42 --> Undefined array key ""
+in APPPATH\Views\v_rekap_kas.php on line 31.
+ 1 APPPATH\Views\v_rekap_kas.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key ""', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 31)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(185): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:40:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:40:09 --> Undefined array key "id_kegiatan"
+in APPPATH\Views\v_rekap_kas.php on line 35.
+ 1 APPPATH\Views\v_rekap_kas.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_kegiatan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 35)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(185): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:43:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:47:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:53:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:53:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:53:06 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 127.
+ 1 APPPATH\Views\v_template_admin.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 127)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:54:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:54:06 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 127.
+ 1 APPPATH\Views\v_template_admin.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 127)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:54:07 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 127.
+ 1 APPPATH\Views\v_template_admin.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 127)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:54:07 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 127.
+ 1 APPPATH\Views\v_template_admin.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 127)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Admin.php(18): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:54:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 09:54:13 --> Undefined variable $submenu
+in APPPATH\Views\v_template_admin.php on line 127.
+ 1 APPPATH\Views\v_template_admin.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $submenu', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php', 127)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 5 APPPATH\Controllers\Agenda.php(25): view('v_template_admin', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Agenda->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Agenda))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 09:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:55:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:55:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:55:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:55:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 09:56:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:35:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 11:42:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:26:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:26:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:46:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:47:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:47:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:47:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:49:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:51:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:51:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:52:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:55:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:55:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:55:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:58:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:58:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 13:59:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:29:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:29:05 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_setting.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_setting', [], true)
+ 4 APPPATH\Views\v_template_admin.php(217): view('v_setting')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 8 APPPATH\Controllers\Admin.php(40): view('v_template_admin', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->Setting()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 15:30:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:30:06 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_setting.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_setting', [], true)
+ 4 APPPATH\Views\v_template_admin.php(217): view('v_setting')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 8 APPPATH\Controllers\Admin.php(40): view('v_template_admin', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->Setting()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 15:30:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:30:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_setting.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_setting', [], true)
+ 4 APPPATH\Views\v_template_admin.php(217): view('v_setting')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 8 APPPATH\Controllers\Admin.php(40): view('v_template_admin', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->Setting()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 15:30:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:30:12 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_setting.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_setting', [], true)
+ 4 APPPATH\Views\v_template_admin.php(217): view('v_setting')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 8 APPPATH\Controllers\Admin.php(40): view('v_template_admin', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->Setting()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 15:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 15:30:16 --> Cannot use object of type stdClass as array
+in APPPATH\Views\v_setting.php on line 17.
+ 1 SYSTEMPATH\View\View.php(224): include()
+ 2 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_setting', [], true)
+ 4 APPPATH\Views\v_template_admin.php(217): view('v_setting')
+ 5 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 6 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 8 APPPATH\Controllers\Admin.php(40): view('v_template_admin', [...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Admin->Setting()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 15:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:38:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:46:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:46:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:48:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:48:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:48:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:49:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:49:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:50:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:51:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:51:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:52:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:52:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 15:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:01:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:01:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:03:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:22:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:22:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:22:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:23:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:29:43 --> array_sum() expects exactly 1 argument, 2 given
+in APPPATH\Views\v_rekap_kas.php on line 10.
+ 1 APPPATH\Views\v_rekap_kas.php(10): array_sum([...], 0)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:33:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:34:26 --> array_sum(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Views\v_rekap_kas.php on line 16.
+ 1 APPPATH\Views\v_rekap_kas.php(16): array_sum(-4000000)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:34:27 --> array_sum(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Views\v_rekap_kas.php on line 16.
+ 1 APPPATH\Views\v_rekap_kas.php(16): array_sum(-4000000)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:34:28 --> array_sum(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Views\v_rekap_kas.php on line 16.
+ 1 APPPATH\Views\v_rekap_kas.php(16): array_sum(-4000000)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:34:28 --> array_sum(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Views\v_rekap_kas.php on line 16.
+ 1 APPPATH\Views\v_rekap_kas.php(16): array_sum(-4000000)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:34:28 --> array_sum(): Argument #1 ($array) must be of type array, int given
+in APPPATH\Views\v_rekap_kas.php on line 16.
+ 1 APPPATH\Views\v_rekap_kas.php(16): array_sum(-4000000)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:40:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:40:34 --> Undefined variable $saldoakhir
+in APPPATH\Views\v_rekap_kas.php on line 23.
+ 1 APPPATH\Views\v_rekap_kas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $saldoakhir', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:40:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:40:42 --> Undefined variable $saldoakhir
+in APPPATH\Views\v_rekap_kas.php on line 23.
+ 1 APPPATH\Views\v_rekap_kas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $saldoakhir', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:40:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:40:44 --> Undefined variable $saldoakhir
+in APPPATH\Views\v_rekap_kas.php on line 23.
+ 1 APPPATH\Views\v_rekap_kas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $saldoakhir', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:40:44 --> Undefined variable $saldoakhir
+in APPPATH\Views\v_rekap_kas.php on line 23.
+ 1 APPPATH\Views\v_rekap_kas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $saldoakhir', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:40:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:40:44 --> Undefined variable $saldoakhir
+in APPPATH\Views\v_rekap_kas.php on line 23.
+ 1 APPPATH\Views\v_rekap_kas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $saldoakhir', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:40:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:40:45 --> Undefined variable $saldoakhir
+in APPPATH\Views\v_rekap_kas.php on line 23.
+ 1 APPPATH\Views\v_rekap_kas.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $saldoakhir', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php', 23)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_rekap_kas.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_rekap_kas', [], true)
+ 5 APPPATH\Views\v_template_admin.php(237): view('v_rekap_kas')
+ 6 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 7 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 9 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+10 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+11 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+12 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:42:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:42:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:42:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:42:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:42:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:43:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:43:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:46:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:54:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:54:08 --> Invalid file: "kas/v_rekap_kas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas/v_rekap_kas.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas/v_rekap_kas', [], true)
+ 3 APPPATH\Views\v_template_admin.php(237): view('kas/v_rekap_kas')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 16:54:09 --> Invalid file: "kas/v_rekap_kas.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('kas/v_rekap_kas.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas/v_rekap_kas', [], true)
+ 3 APPPATH\Views\v_template_admin.php(237): view('kas/v_rekap_kas')
+ 4 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\v_template_admin.php')
+ 5 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('v_template_admin', [], true)
+ 7 APPPATH\Controllers\KasMasjid.php(23): view('v_template_admin', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 16:54:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:54:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:54:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 16:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:00:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:00:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:08:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:09:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:13:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:13:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:13:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:13:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:13:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:14:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:21:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:21:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:21:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:21:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:22:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:22:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:22:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:23:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:36:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:37:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:41:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:44:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 17:58:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:03:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:04:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:07:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:10:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:19:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:28:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:30:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:31:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:31:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:36:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:36:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:38:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:39:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:45:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:45:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:47:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:47:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:47:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:51:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:52:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:53:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:54:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:55:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:55:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:55:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:55:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:56:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:56:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-06-30 18:56:13 --> Too few arguments to function App\Controllers\KasMasjid::UpdateKasKeluar(), 0 passed in C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php on line 932 and exactly 1 expected
+in APPPATH\Controllers\KasMasjid.php on line 94.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->UpdateKasKeluar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-06-30 18:56:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-06-30 18:57:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

@@ -1,0 +1,773 @@
+INFO - 2023-08-01 01:37:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 01:37:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 01:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 01:37:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 01:37:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 01:37:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 01:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 01:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 01:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 01:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-01 04:01:15 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 04:01:15 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 04:02:09 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 04:02:09 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 04:03:42 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 04:03:42 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 04:08:28 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 04:08:28 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:04:22 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:04:22 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:07:05 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:07:05 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:08:44 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:08:44 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:09:46 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:09:46 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:11:36 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:11:36 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:12:01 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:12:01 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:15:35 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:15:36 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:19:45 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:19:45 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:20:49 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:20:49 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:33:46 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:33:46 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:38:17 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:38:17 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:41:33 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:41:33 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:42:53 --> mysqli_sql_exception: Column 'nama_pengantin_w' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:42:53 --> Column 'nama_pengantin_w' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'ssjhgjgsada\', \'ssgjhgj\', \'nama_qori\', \'2023-08-1\', \'09:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'ssjhgjgsada\', \'ssgjhgj\', \'nama_qori\', \'2023-08-1\', \'09:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'ssjhgjgsada\', \'ssgjhgj\', \'nama_qori\', \'2023-08-1\', \'09:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:43:41 --> mysqli_sql_exception: Column 'nama_pengantin_w' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:43:41 --> Column 'nama_pengantin_w' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'\', \'ssgjhgj\', \'nama_qori\', \'2023-08-1\', \'09:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'\', \'ssgjhgj\', \'nama_qori\', \'2023-08-1\', \'09:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'\', \'ssgjhgj\', \'nama_qori\', \'2023-08-1\', \'09:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:43:48 --> mysqli_sql_exception: Column 'nama_pengantin_w' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:43:48 --> Column 'nama_pengantin_w' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'csssa\', \'\', \'nama_qori\', \'2023-08-1\', \'09:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'csssa\', \'\', \'nama_qori\', \'2023-08-1\', \'09:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'csssa\', \'\', \'nama_qori\', \'2023-08-1\', \'09:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 06:54:11 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 06:54:11 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 07:13:02 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 07:13:02 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 07:27:03 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 07:27:03 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 07:31:13 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 07:31:13 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-08-01 07:31:50 --> mysqli_sql_exception: Column 'nama_pengantin_p' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 07:31:50 --> Column 'nama_pengantin_p' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (NULL, NULL, NULL, NULL, NULL, NULL, NULL)')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-01 14:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:37:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:38:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:38:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:38:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:38:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:41:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:43:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:43:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:43:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:53:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:53:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:53:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:55:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:56:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:57:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:57:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:58:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 14:58:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 15:01:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 16:17:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 16:17:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 16:17:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-01 16:17:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-01 16:27:14 --> mysqli_sql_exception: Column 'nama_pengantin_w' cannot be null in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\simasjid_ci4\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\simasjid_ci4\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\simasjid_ci4\app\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+#9 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+#10 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-08-01 16:27:14 --> Column 'nama_pengantin_w' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'csssa\', \'n\', \'nama_qori\', \'2023-08-1\', \'09:00\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'csssa\', \'n\', \'nama_qori\', \'2023-08-1\', \'09:00\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (\'hfysds\', NULL, \'csssa\', \'n\', \'nama_qori\', \'2023-08-1\', \'09:00\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb_nikah` (`nama_pengantin_p`, `nama_pengantin_w`, `nama_penghulu`, `nama_wali`, `nama_qori`, `tgl_nikah`, `jam_nikah`) VALUES (:nama_pengantin_p:, :nama_pengantin_w:, :nama_penghulu:, :nama_wali:, :nama_qori:, :tgl_nikah:, :jam_nikah:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\API\ApiNikah.php(48): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

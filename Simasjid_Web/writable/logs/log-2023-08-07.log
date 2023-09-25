@@ -1,0 +1,171 @@
+INFO - 2023-08-07 05:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 05:59:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 05:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 05:59:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 06:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 06:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 06:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 06:04:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 06:05:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 06:05:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 06:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 06:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-07 07:53:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-07 08:05:56 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:41 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:43 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:43 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:44 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:45 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:45 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:45 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:46 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:56 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:32:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:33:12 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:33:12 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:33:12 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:33:13 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:33:13 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:33:13 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-07 08:33:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-07 08:34:47 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:34:47 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:34:47 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:34:47 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-08-07 08:34:47 --> Call to a member function isValid() on null
+in APPPATH\Controllers\API\ApiNikah.php on line 40.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\API\ApiNikah->create()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ApiNikah))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-07 08:58:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

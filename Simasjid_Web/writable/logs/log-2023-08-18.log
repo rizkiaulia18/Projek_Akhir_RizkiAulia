@@ -1,0 +1,1401 @@
+INFO - 2023-08-18 03:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:35:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:36:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:36:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:36:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:38:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2023-08-18 03:43:07 --> mysqli_sql_exception: Unknown column 'created_at' in 'order clause' in C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\simasjid_ci4\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\simasjid_ci4\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\simasjid_ci4\app\Models\ModelKasMasjid.php(12): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\simasjid_ci4\app\Controllers\KasMasjid.php(25): App\Models\ModelKasMasjid->AllData()
+#6 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+#7 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+#8 C:\xampp\htdocs\simasjid_ci4\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\simasjid_ci4\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-08-18 03:43:07 --> Unknown column 'created_at' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `tb_kas`
+ORDER BY `created_at` DESC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tb_kas`
+ORDER BY `created_at` DESC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tb_kas`
+ORDER BY `created_at` DESC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tb_kas`
+ORDER BY `created_at` DESC', [], false)
+ 5 APPPATH\Models\ModelKasMasjid.php(12): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\KasMasjid.php(25): App\Models\ModelKasMasjid->AllData()
+ 7 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->index()
+ 8 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 9 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 03:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:44:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:44:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:45:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:45:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:45:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:45:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:46:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:46:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:46:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:46:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:48:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:51:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:52:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:54:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:58:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:58:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 03:58:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:00:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:01:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:01:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:01:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:01:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:01:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:01:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:02:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:04:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:04:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:05:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:08:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:08:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:08:05 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:08:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:08:08 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:08:08 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:08:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:08:08 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:09:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:09:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:09:36 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:09:37 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:09:37 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:09:37 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:09:37 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:09:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:09:38 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:09:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:10:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:10:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:10:07 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:10:07 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:10:07 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:10:07 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:10:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:10:07 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:10:10 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:10:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:10:10 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 20.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 20)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:10:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:10:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:10:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:11:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:11:45 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:11:45 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:11:45 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:11:45 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:11:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:11:45 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:12:24 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:12:24 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:12:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:12:24 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:11 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:11 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:12 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:12 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:13 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:14 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:16 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:16 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:16 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:17 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:17 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:18 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:18 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:18 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:18 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:18 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:19 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:19 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:19 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:19 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:19 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:26 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:26 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:15:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:15:27 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:17:30 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:17:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:17:30 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:17:31 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:17:31 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:19:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:19:20 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 19.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:19:20 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 19.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:19:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:19:20 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 19.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:19:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:19:22 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 19.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:19:22 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 19.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:19:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:19:22 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 19.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:19:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:20:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:20:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:20:03 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 25.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:20:04 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 25.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:20:04 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 25.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:20:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:20:04 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 25.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:21:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:21:58 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:21:59 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:21:59 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:22:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:22:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:23:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:39 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:40 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:40 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:40 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:41 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:41 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:41 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:42 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:42 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:42 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:42 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:23:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:23:43 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:25:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:12 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:13 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:13 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:13 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:13 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:13 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:14 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:14 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:14 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:14 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:14 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:14 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:15 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:25:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:25:23 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:27:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:27:38 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:27:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:27:38 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:27:39 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:27:39 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:27:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:27:39 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:27:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:27:40 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:27:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:29:58 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:29:58 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:29:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-08-18 04:29:58 --> Undefined array key "bulan"
+in APPPATH\Views\kas-masjid\v_data_laporan.php on line 18.
+ 1 APPPATH\Views\kas-masjid\v_data_laporan.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "bulan"', 'C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\simasjid_ci4\\app\\Views\\kas-masjid\\v_data_laporan.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('kas-masjid/v_data_laporan', [], true)
+ 5 APPPATH\Controllers\KasMasjid.php(162): view('kas-masjid/v_data_laporan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\KasMasjid->ViewLaporan()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\KasMasjid))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-08-18 04:36:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:37:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 04:38:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 05:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:24:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:25:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:27:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:27:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:28:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:39:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:39:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 07:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 08:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 08:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 08:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 08:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 08:57:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 09:29:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 09:30:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 09:31:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 09:31:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 09:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 09:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 15:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 15:43:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 16:08:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 16:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 16:08:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 16:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 16:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 16:09:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 16:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-08-18 16:12:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
